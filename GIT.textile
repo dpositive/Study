@@ -1,4 +1,5 @@
-GIT has:
+
+У GIT есть 3 рабочих пространства:
 -A Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing file;
 -A Staging Area: where you'll list changes you make to the working directory; (git add)
 -A Repository: where Git permanently stores those changes as different versions of the project (git commit)
