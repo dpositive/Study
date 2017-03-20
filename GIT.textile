@@ -12,3 +12,4 @@ git status - проверка состояния изменений в доку�
 git add filename - добавить файл в  staging area
 git add . - добавить все файлы в  staging area
 git commit -m "first commit" - отправлем файл в staging area
+hghghghgh
