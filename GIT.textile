@@ -1,7 +1,7 @@
 GIT has:
 -A Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing file;
--A Staging Area: where you'll list changes you make to the working directory;
--A Repository: where Git permanently stores those changes as different versions of the project
+-A Staging Area: where you'll list changes you make to the working directory; (git add)
+-A Repository: where Git permanently stores those changes as different versions of the project (git commit)
 
 Команды
 git config --global user.name "Mulyar Dmitry" - настройка информации о гите
@@ -11,4 +11,4 @@ git init - начало  работы с гитом
 git status - проверка состояния изменений в документе
 git add filename - добавить файл в  staging area
 git add . - добавить все файлы в  staging area
-ghghg
+git commit -m "first commit" - отправлем файл в staging area
