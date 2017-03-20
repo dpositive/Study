@@ -14,3 +14,5 @@ git add filename - добавить файл в  staging area
 git add . - добавить все файлы в  staging area
 git commit -m "first commit" - отправлем файл в staging area
 git clone https://github.com/jquery/jquery.git - клонировать проект с гитхаба
+git log --graph --all --decorate --oneline вывести список коммитов
+git merge new branch - слить ветку с мастером
