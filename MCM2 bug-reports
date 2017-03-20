@@ -1,0 +1,110 @@
+MCM2 bug-reports
+
+#1
+
+**Summary:**
+Age limit filter doesn't recognise '14' as valid age to continue survey, (A3).
+
+**Environment:**
+Android 5.1.1 Xiaomi Redmi Note 3 (Root)
+
+**Preconditions:**
+Syrex MCM2 app is installed & launched.
+
+**Steps to reproduce:**
+1) Launch MCM2 app;
+2) Log in;
+3) Scan coupon;
+4) Fill valid data into the fields: "UIC", "Возраст", "Пол";
+5) Tap on the [Далее] button;  
+6) Tap on the [Пройти анкетирование] button;
+7) Input "14" into the field: "A3";
+8) Observe result.
+
+**Actual result:**
+Age limit filter doesn't recognise '14' as valid age to continue survey
+
+**Expected result:**
+You're able to continue srvey.
+
+#2
+
+**Summary:**
+There is no [Сканировать] button while registration of new coupon.
+
+**Environment:**
+Android 5.1.1 Xiaomi Redmi Note 3 (Root)
+
+**Preconditions:**
+Syrex MCM2 app is installed & launched.
+
+**Steps to reproduce:**
+1) Launch MCM2 app;
+2) Log in;
+3) Scan coupon;
+4) Fill valid data into the fields: "UIC", "Возраст", "Пол";
+5) Tap on the [Далее] button;
+6) Tap on the [Выдать купоны] button;
+7) Read the instruction;
+8) Observe result.
+
+**Actual result:**
+There is no [Сканировать] button.
+
+**Expected result:**
+There is no [+Добавить] button.
+
+**Additional info:**
+It may be a typo in instruction because [+Добавить] button function as [Сканировать] button.
+
+#3
+
+**Summary:**
+There is no input field displayed with 'Other (specify)' option, (A14).
+
+**Environment:**
+Android 5.1.1 Xiaomi Redmi Note 3 (Root)
+
+**Preconditions:**
+Syrex MCM2 app is installed & launched.
+
+**Steps to reproduce:**
+1) Launch MCM2 app;
+2) Log in;
+3) Scan coupon;
+4) Fill valid data into the fields: "UIC", "Возраст", "Пол";
+5) Tap on the [Далее] button;  
+6) Tap on the [Пройти анкетирование] button;
+7) Input "<14 number" into the field: "A3";
+8) Tap on [А14. What is your main occupation now?];
+9) Select 'Other (specify)' option from drop-down list;
+10) Observe result.
+
+**Actual result:**
+There is no input field displayed with 'Other (specify)' option.
+
+**Expected result:**
+There is input field displayed with 'Other (specify)' option.
+
+#4
+
+**Summary:**
+At attempt to input invalid data into login fields authentication error message is displayed in English
+
+**Environment:**
+Android 5.1.1 Xiaomi Redmi Note 3 (Root)
+
+**Preconditions:**
+Syrex MCM2 app is installed & launched.
+
+**Steps to reproduce:**
+1) Launch MCM2 app;
+2) Fill log in fields with invalid data;
+3) Press [Войти] button;
+4) Observe result.
+
+**Actual result:**
+Authentication error message is displayed in English.
+
+**Expected result:**
+Authentification error message is displayed in Russian.
