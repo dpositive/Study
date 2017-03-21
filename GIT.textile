@@ -21,3 +21,4 @@ git branch - проверить в какой ветке я нахожусь
 git log --graph --all --decorate --oneline вывести список коммитов
 git merge new branch - слить ветку с мастером
 git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin" - команда замены VIM на Notepad
+git diff - посмотреть изменения
