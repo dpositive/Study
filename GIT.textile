@@ -30,4 +30,4 @@ git remote -v - посмотреть список уталенных серве�
 touch test_file - создать файл test_file в репозитории 
 'C:\\Program Files (x86)\\Notepad++\\notepad++.exe' test_file - открыть файл test_file в notepad
 start test_file - запустить файл test_file
-git branch -d new_branch_2 - удалить ветку new_branch_2
+git branch -d new_branch_2 - удалить ветку new_branch_2 
