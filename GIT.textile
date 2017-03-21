@@ -14,11 +14,16 @@ git add filename - добавить файл в  staging area
 git add . - добавить все файлы в  staging area
 git commit -m "first commit" - отправлем файл в staging area
 git clone https://github.com/jquery/jquery.git - клонировать проект с гитхаба
+git remote add origin https://github.com/dpositive/test.git подключить гитхаб
 git push -u origin master - залить коммит на гитхаб
+git pull - синхронизировать репозиторий на компе с гитхабом
 git branch new_branch - создать новую ветку
 git checkout new_branch - переключиться на новую ветку
 git branch - проверить в какой ветке я нахожусь
 git log --graph --all --decorate --oneline вывести список коммитов
 git merge new branch - слить ветку с мастером
 git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin" - команда замены VIM на Notepad
-git diff - посмотреть изменения
+git diff - посмотреть изменения до коммита
+git show e99e0b0cb8d4575d3f9ca558641712250c3d3b40 - посмотреть изменения в самом коммите по его id который можно посмотреть через команду git log
+git remote -v - посмотреть список уталенных серверов
+touch test_file - создать файл test_file в репозитории 
