@@ -13,7 +13,7 @@ git status - проверка состояния изменений в доку�
 git add filename - добавить файл в  staging area
 git add . - добавить все файлы в  staging area
 git commit -m "first commit" - отправлем файл в staging area
-git clone https://github.com/jquery/jquery.git - клонировать проект с гитхаба
+git clone https://github.com/jquery/jquery.git - клонировать проект с гитхаба (можно сразу в папку)
 git remote add origin https://github.com/dpositive/test.git подключить гитхаб
 git push -u origin master - залить коммит на гитхаб
 git pull - синхронизировать репозиторий на компе с гитхабом
