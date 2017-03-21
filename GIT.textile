@@ -32,3 +32,14 @@ touch test_file - создать файл test_file в репозитории
 start test_file - запустить файл test_file
 git branch -d new_branch_2 - удалить ветку new_branch_2 
 git config alias.st tsatus - добавление алиасов
+
+алиасы 
+
+[alias]
+	st = status
+    s  = status --short
+	br = branch
+	co = checkout
+	ci = commit
+    c  = commit -am
+	p = push
