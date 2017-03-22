@@ -29,14 +29,15 @@ git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe
 git diff - посмотреть изменения до коммита
 git show e99e0b0cb8d4575d3f9ca558641712250c3d3b40 - посмотреть изменения в самом коммите по его id который можно посмотреть через команду git log
 git show HEAD - росмотреть изменения в коммите в котором ты сейчас находишься
-git remote -v - посмотреть список уталенных серверов
+git remote -v - посмотреть список удаленных серверов
 touch test_file - создать файл test_file в репозитории 
 'C:\\Program Files (x86)\\Notepad++\\notepad++.exe' test_file - открыть файл test_file в notepad
 start test_file - запустить файл test_file
 git branch -d new_branch_2 - удалить ветку new_branch_2 
 git config alias.st tsatus - добавление алиасов
-git reset HEAD filename - отмена индексированных файлов
+git reset HEAD filename - отмена изменений в файлах находящихся в Staging Area
 git revert HEAD - отмена коммита
+git fetch - посмотреть что поменялось на удаленном сервере
 
 алиасы 
 
