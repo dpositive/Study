@@ -4,6 +4,9 @@ var askAge = "What's your age";
 var askRate = "rate my game out of 10";
 var answYes = "yes";
 
+var okAge = 13;
+var constValue = 8;
+
 var play_message = "Let's play!";
 var bye_message = "By";
 var too_young = "You are allowed to play but I take no responsibility";
@@ -18,7 +21,7 @@ var sorry_mess = "I'll keep practicing coding and racing.";
 
 var Age = function(age)
 {
-	if(age < 13)
+	if(age < okAge)
 	{
         alert(too_young);
 	}
@@ -42,7 +45,7 @@ if(answer === answYes)
 
 var RateFeedback = function(someValue){
 
-	if(someValue > 8) 
+	if(someValue > constValue) 
 	{
    		alert(thank_mess);
 	}
