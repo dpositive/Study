@@ -16,25 +16,20 @@ var firstst_quest = "Do you want to race Bieber on stage?";
 var thank_mess = "Thank you! We should race at the next concert!";
 var sorry_mess = "I'll keep practicing coding and racing.";
 
-var variant = confirm(askReady); // приветствие и вопрос ready/no
-if (variant)
+var Age = function(age)
 {
-	alert(play_message); // я согласен
-	var age = prompt(askAge); // введите возраст
-	
 	if(age < 13)
 	{
-   		alert(too_young);
+        alert(too_young);
 	}
 	else 
 	{
-  		alert(old_enough);
+        alert(old_enough);
 	}
-    alert(firstst_scene);
-	alert(second_scene);
+};
 
-	var userAnswer = prompt(firstst_quest); // вопрос Бибера
-	if(userAnswer === answYes) 
+var BieberQuest = function(answer){
+if(answer === answYes) 
 	{
    		alert(third_scene);
 	}
@@ -43,8 +38,11 @@ if (variant)
   		alert(third_no_scene);
 	}
 
-	var feedback = prompt(askRate);
-    if(feedback > 8) 
+};
+
+var RateFeedback = function(someValue){
+
+	if(someValue > 8) 
 	{
    		alert(thank_mess);
 	}
@@ -52,11 +50,28 @@ if (variant)
 	{
   		alert(sorry_mess);
 	}
+};
+
+var variant = confirm(askReady); // приветствие и вопрос ready/no
+if (variant)
+{
+	alert(play_message); // я согласен
+	var age = prompt(askAge); // введите возраст
+	
+	Age(age);
+
+    alert(firstst_scene);
+	alert(second_scene);
+
+	var userAnswer = prompt(firstst_quest); // вопрос Бибера
+	
+	BieberQuest(userAnswer);
+
+	var feedback = prompt(askRate); // просим оценить
+    
+    RateFeedback(feedback);
 }
 else
 {
   alert(bye_message);
 }
-
-
-
