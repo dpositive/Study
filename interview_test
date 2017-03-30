@@ -1,0 +1,468 @@
+#1
+Summary: "InterviewTest" app icon doesn't displayed on launcher's desktop
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Major 
+Severity: Medium
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is downloaded on your device
+
+	Steps to reproduce:
+		1. Install "InterviewTest" app;
+		2. Observe the result on your launcher's desktop.
+
+	Actual Result: "InterviewTest" app is successfully installed, app icon doesn't displayed on launcher's desktop.
+
+	Expected Result: "InterviewTest" app is successfully installed, app icon displayed on launcher's desktop.
+
+#2
+Summary: "Start date" input field of the "InterviewTest" app displays uncorrect date format
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Major 
+Severity: Medium
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Observe the "Start date" input field.
+
+	Actual Result: "Start date" input field of the "InterviewTest" app displays uncorrect date format "dd/MMMM/yyyy"
+
+	Expected Result: "Start date" input field of the "InterviewTest" app displays correct date format "dd/mm/yyyy"
+
+	Additional info: At the same time "End date" is not an input field as "Start date" is. Date picker window appears by tapping on red blank space under the "End date" title
+
+#3
+Summary: At attempt to input data into "Start date" input field alpgabetic keyboard appears
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Medium 
+Severity: Medium
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Start date" input field;
+		3. Observe result.
+
+	Actual Result: alpgabetic keyboard is appeared.
+
+	Expected Result: numeric keyboard is appeared.
+
+	Additional info: the same situation is with "Price USD" input field.
+
+#4
+Summary: There is an opportunity to input text into "Start date" input field
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Medium
+Severity: Medium
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Start date" input field;
+		3. Try to input some text;
+		4. Observe result.
+
+	Actual Result: your text is iputed successfully.
+
+	Expected Result: you cannot input text into "Start date" input field.
+
+	Additional info: the same situation is with "Price USD" input field.
+
+#5
+Summary: There is an opportunity to input any amount of numbers into "Start date" input field
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Medium
+Severity: Medium
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Start date" input field;
+		3. Try to input large amount of numbers;
+		4. Observe result.
+
+	Actual Result: you have an opportunity to input any amount of numbers into "Start date" input field.
+
+	Expected Result: you cannot input more than 8 numbers into "Start date" input field. Also the first two numbers shouldn't be greater than or equal to 31, the second two numbers shouldn't be greater than or equal to 12
+
+	Additional info: the same situation is with "Price USD" input field.
+
+#6
+Summary: "Start date" input field isn't marked by color as other fields
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Minor
+Severity: Minor
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Observe the "Start date" input field.
+
+	Actual Result: "Start date" input field isn't marked by color as other fields.
+
+	Expected Result: "Start date" input field is marked by some color as other fields.
+
+#7
+Summary: At attempt to input large amount of symbols into "Start date" input field it overlaps other fields
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Minor
+Severity: Minor
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Start date" input field;
+		3. Input at least 24 rows of symbols;
+		4. Observe result.
+
+	Actual Result: "Start date" input field it overlaps other fields and you cannot scroll down to access other fields.
+
+	Expected Result: you can scroll down to access other fields.
+
+	Additional info: the same situation is with "Price USD" input field.
+
+#8
+
+Summary: At attempt to input data into "Price USD" input field alpgabetic keyboard appears
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Medium 
+Severity: Medium
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Price USD" input field;
+		3. Observe result.
+
+	Actual Result: alpgabetic keyboard is appeared.
+
+	Expected Result: numeric keyboard is appeared.
+
+	Additional info: the same situation is with "Start date" input field.
+
+#9
+Summary: There is an opportunity to input text into "Price USD" input field
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Medium
+Severity: Medium
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Price USD" input field;
+		3. Try to input some text;
+		4. Observe result.
+
+	Actual Result: your text is iputed successfully.
+
+	Expected Result: you cannot input text into "Price USD" input field.
+
+	Additional info: the same situation is with "Start date" input field.
+
+#10
+Summary: At attempt to input large amount of symbols into "Price USD" input field it overlaps other fields
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Minor
+Severity: Minor
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Price USD" input field;
+		3. Input at least 17 rows of symbols;
+		4. Observe result.
+
+	Actual Result: "Start date" input field it overlaps other fields and you cannot scroll down to access other fields.
+
+	Expected Result: you can scroll down to access other fields.
+
+	Additional info: the same situation is with "Price USD" input field.
+
+#11
+Summary: "Start date" input field doesn't use the same input method as "End date" input field
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Critical
+Severity: Minor
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap on "Start date" input field;
+		3. Observe result;
+		4. Tap on "End date" input field;
+		5. Observe result.
+
+	Actual Result: input methods of "Start date" and "End date" input fields are not the same.
+
+	Expected Result: input methods of "Start date" and "End date" input fields are the same.
+
+	Additional info: input methods of "End date" input fields is more usable.
+
+#12
+Summary: Nothing happens at attempt to check "Remind" checkbox
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Critical
+Severity: Major
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Check "Remind" checkbox;
+		3. Observe result.
+
+	Actual Result: nothing happens at attempt to check "Remind" checkbox.
+
+	Expected Result: date picker appears at attempt to check "Remind" checkbox.
+
+#13
+Summary: There is no opportunity to observe, use and edit saved data
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Critical
+Severity: Major
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Input valid data into avery fiels of the app;
+		3. Tap [Save] button;
+		4. Observe result.
+
+	Actual Result: there is no opportunity to observe, use and edit saved data.
+
+	Expected Result: there is opportunity to observe, use and edit saved data.
+
+#14
+Summary: "Data are successfully saved" message appears at attempt to tap on [Save] button with empty fields
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Major
+Severity: Major
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Tap [Save] button;
+		3. Observe result.
+
+	Actual Result: "Data are successfully saved" message appears.
+
+	Expected Result: "Input data" message appears.
+
+#15
+Summary: "s" symbol appears in "Price USD" input field at attempt to save data
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Minor
+Severity: Minor
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Input valid data into avery fiels of the app;
+		3. Tap [Save] button;
+		4. Observe result.
+
+	Actual Result: "s" symbol appears in "Price USD" input field at attempt to save data.
+
+	Expected Result: All input fields should be empty after saving data.
+
+#16
+Summary: There is an opportunity to input end date which is earlier than start date
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Minor
+Severity: Minor
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Input some date into "Start date" input field;
+		3. Input date which is earlier than inputed into "Start date" into "End date" input field;
+		4. Tap on [Save] button;
+		5. Observe result.
+
+	Actual Result: "Data are successfully saved" message appears.
+
+	Expected Result: "Wrong date" message appears.
+
+#17
+Summary: [Save] button doesn't displayed in landscape mode
+
+Environment:
+	Android 5.1.1, MIUI 8.0.1.0, Xiaomi Redmi Note 3 (Root), display 5.5"
+	
+
+Build (version): unknown
+
+Priority: Major
+Severity: Minor
+
+Description:
+
+	Pre-condition:
+	Device running android OS; "InterviewTest" app is installed on your device
+
+	Steps to reproduce:
+		1. Launch "InterviewTest" app;
+		2. Turn your devise in landscape mode;
+		3. Observe result.
+
+	Actual Result: [Save] button doesn't displayed on the screen.
+
+	Expected Result: [Save] button displayed on the screen.
